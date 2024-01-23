@@ -1,8 +1,8 @@
 {
     "$origin": "howcode.org.",
     "$ttl": 3600,
-    "soa" : {
-        "mname": "ns1.howcode.org.", 
+    "soa": {
+        "mname": "ns1.howcode.org.",
         "rname": "admin.howcode.org.",
         "serial": "{time}",
         "refresh": 3600,
@@ -15,8 +15,10 @@
         { "host": "ns2.howcode.org." }
     ],
     "a": [
-        { "name": "@", "ttl":, 400, "value": "255.255.255.255" },
-        { "name": "@", "ttl":, 400, "value": "127.0.0.1" },
-        { "name": "@", "ttl":, 400, "value": "127.0.0.1" }
+        { "name": "@", "ttl": 400, "value": "255.255.255.255" },
+        { "name": "@", "ttl": 400, "value": "127.0.0.1" },
+        { "name": "@", "ttl": 400, "value": "127.0.0.1" },
+        { "name": "@", "ttl": 400, "value": "127.0.0.1" },
+        { "name": "@", "ttl": 400, "value": "10.10.10.10" }
     ]
 }
